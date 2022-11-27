@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-
+# Create list of files and sort
 path = "your_folder_with_pictures"
 file_list = os.listdir(path)
 full_list = [os.path.join(path, i) for i in file_list]
@@ -17,6 +17,9 @@ def crop_center(pil_img, crop_width: int, crop_height: int) -> Image:
                          (img_height - crop_height) // 2,
                          (img_width + crop_width) // 2,
                          (img_height + crop_height) // 2))
+
+
+# Crop pictures from list
 
 i = 1
 
