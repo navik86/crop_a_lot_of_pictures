@@ -1,1 +1,1 @@
-- ```Replace the folder name```
+- ```Change the folder name with pictures```
